@@ -80,3 +80,14 @@ exercises.c:66:7: error: ‘posicion’ may be used uninitialized [-Werror=maybe
 cc1: all warnings being treated as errors
 Compilation failed
 af79293
+Fri 15 Mar 2024 01:11:33 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:66:7: error: ‘posicion’ may be used uninitialized [-Werror=maybe-uninitialized]
+   66 |   int posicion;
+      |       ^~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+ecbd740
