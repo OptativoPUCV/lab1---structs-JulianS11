@@ -63,3 +63,9 @@ exercises.c:65:28: note: previous definition of ‘result’ with type ‘int *�
       |                        ~~~~^~~~~~~~
 Compilation failed
 61c004d
+Fri 15 Mar 2024 01:08:21 PM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  0|4
+total_score: 30/70
+ed57a48
