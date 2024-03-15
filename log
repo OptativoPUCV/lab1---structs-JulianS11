@@ -69,3 +69,14 @@ Fri 15 Mar 2024 01:08:21 PM UTC:
  tests:  0|4
 total_score: 30/70
 ed57a48
+Fri 15 Mar 2024 01:10:32 PM UTC: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:66:7: error: ‘posicion’ may be used uninitialized [-Werror=maybe-uninitialized]
+   66 |   int posicion;
+      |       ^~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+af79293
