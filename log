@@ -91,3 +91,9 @@ exercises.c:66:7: error: ‘posicion’ may be used uninitialized [-Werror=maybe
 cc1: all warnings being treated as errors
 Compilation failed
 ecbd740
+Fri 15 Mar 2024 01:11:48 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|4
+total_score: 30/70
+d05ea00
