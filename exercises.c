@@ -98,9 +98,14 @@ int checkSorted(int arr[], int size){
   if(ascendente){
     return 1;
   }
+  else if(descendente){
+    return -1;
+  }
+  else{
+    return 0;
+  }
   
 }
-
 /*
 Ejercicio 6: Información de una Biblioteca
 Descripción: Vamos a representar la información de una biblioteca. En la
