@@ -95,6 +95,7 @@ int checkSorted(int arr[], int size){
         descendente = 0;
       }
     }
+  
   if(ascendente){
     return 1;
   }
@@ -102,9 +103,8 @@ int checkSorted(int arr[], int size){
     return -1;
   }
   else{
-    return 0;
+    return 1;
   }
-  
 }
 /*
 Ejercicio 6: Información de una Biblioteca
