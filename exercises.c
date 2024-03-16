@@ -65,13 +65,13 @@ void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
                        int result[]){
   int cont1 = 0;
   int cont2 = 0;
-  for(int k = 0 ; k < size1 + size2; k++){
+  for(int n = 0 ; n < size1 + size2; n++){
     if(arr1[cont1] < arr2[cont2]){
-      result[k] = arr1[cont1];
+      result[n] = arr1[cont1];
       cont1++;
     }
     else{
-      result[k] = arr2[cont2];
+      result[n] = arr2[cont2];
       cont2++;
     }
   }
