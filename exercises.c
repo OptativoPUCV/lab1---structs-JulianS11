@@ -153,5 +153,13 @@ typedef struct nodo {
 } Nodo;
 
 Nodo *crearListaEnlazada(int arr[], int size){ 
+  
+  Nodo *primerN = (Nodo *)malloc(sizeof(Nodo));
+  primerN->numero = arr[0];
+  primerN->siguiente = NULL; //en caso de que sea 1 solo elemento en el arreglo
+  Nodo *temp = primerN;
+
+  
+  
   return NULL; 
 }
