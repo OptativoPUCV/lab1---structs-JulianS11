@@ -159,7 +159,12 @@ Nodo *crearListaEnlazada(int arr[], int size){
   primerN->siguiente = NULL; //en caso de que sea 1 solo elemento en el arreglo
   Nodo *temp = primerN;
 
+  for ( int i = 1 ; i < size; i++){
+    temp->siguiente = (Nodo *) malloc(sizeof(Nodo));
+    temp->siguiente->numero = arr[i];
+    temp->siguiente->siguiente = NULL;
+    temp = temp->siguiente;
+  }
   
-  
-  return NULL; 
+  return primerN; 
 }
